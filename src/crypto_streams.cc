@@ -23,7 +23,7 @@ CRYPTO_STREAM_DEF_IC(chacha20)
 // Libsodium does not define it, lets define it here so we don't get compilation errors
 // when expanding the macros
 #define crypto_stream_chacha20_ietf_KEYBYTES   crypto_stream_chacha20_KEYBYTES
-#define crypto_stream_chacha20_ietf_NONCEBYTES crypto_stream_chacha20_IETF_NONCEBYTES
+#define crypto_stream_chacha20_ietf_NONCEBYTES crypto_stream_chacha20_NONCEBYTES
 CRYPTO_STREAM_DEF(chacha20_ietf)
 CRYPTO_STREAM_DEF_IC(chacha20_ietf)
 
